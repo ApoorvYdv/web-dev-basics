@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <h1>Job Application</h1>
+      <br />
+      <label for="name">Name:</label><br />
+      <input type="text" name="name" id="name" />
+      <br />
+      <br />
+
+      <label for="email">Email:</label><br />
+      <input type="text" name="email" id="email" />
+      <br />
+      <br />
+
+      <label for="phoneno">Phone Number:</label><br />
+      <input type="tel" name="phoneno" id="phoneno" />
+      <br />
+      <br />
+
+      <label for="resume">Resume:</label><br />
+      <input type="file" name="resume" id="resume" />
+      <br />
+      <br />
+
+      <label for="experience">Experience(years):</label><br />
+      <input type="number" name="experience" id="experience" min="0" max="50" />
+      <br />
+      <br />
+
+      <fieldset>
+        <legend>Skills:</legend>
+
+        <input type="checkbox" name="html" id="html" /><br />
+        <label for="html">HTML</label>
+        <br />
+        <br />
+
+        <input type="checkbox" name="css" id="css" /><br />
+        <label for="css">CSS</label>
+        <br />
+        <br />
+
+        <input type="checkbox" name="javascript" id="javascript" /><br />
+        <label for="javascript">Javacript</label>
+        <br />
+        <br />
+      </fieldset>
+      <br />
+
+      <label for="highed">Highest Education:</label><br />
+      <select name="highed" id="highed">
+        <option value="highschool">High School</option>
+        <option value="undergrad">Undergrad</option>
+        <option value="postgrad">Postgrad</option>
+      </select>
+      <br />
+      <br />
+
+      <label for="availabilty">Availability</label><br />
+      <input type="radio" name="availabilty" id="availabilty1" />
+      <label for="availabilty1">Part Time</label>
+      <br />
+      <input type="radio" name="availabilty" id="availabilty2" />
+      <label for="availabilty2">Full Time</label>
+      <br />
+      <br />
+
+      <label for="comments">Additional Comments</label> <br />
+      <textarea name="comments" id="comments" rows="5" cols="30"></textarea>
+
+      <input type="submit" value="Submit Application" />
+    </form>
+  </body>
+</html>

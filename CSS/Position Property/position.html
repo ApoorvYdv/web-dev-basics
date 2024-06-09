@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position Property</title>
+
+    <style>
+      div {
+        border: 1px solid black;
+      }
+
+      img {
+        margin: 10px;
+      }
+
+      .i2 {
+        /* position: relative;
+      top: 100px; */
+
+        position: absolute;
+        top: 320px;
+      }
+
+      .container {
+        position: relative;
+        height: 3000px;
+      }
+
+      .i4 {
+        position: fixed;
+      }
+
+      .box {
+        background-color: aqua;
+        height: 5000px;
+      }
+
+      .i3 {
+        position: sticky;
+        top: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="images.png" alt="1" height="300px" width="300px" class="i1" />
+      <img
+        src="images (1).png"
+        alt="2"
+        height="300px"
+        width="300px"
+        class="i2"
+      />
+      <img
+        src="Aspect1x1.png"
+        alt="3"
+        height="300px"
+        width="300px"
+        class="i3"
+      />
+      <img
+        src="aspect-ratios-blogpost-1x1-1.png"
+        alt="4"
+        height="300px"
+        width="300px"
+        class="i4"
+      />
+    </div>
+
+    <div class="box"></div>
+  </body>
+</html>

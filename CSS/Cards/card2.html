@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>payment card</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgb(238, 174, 202);
+        background: radial-gradient(
+          circle,
+          rgba(238, 174, 202, 1) 0%,
+          rgba(148, 187, 233, 1) 100%
+        );
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        gap: 25px;
+      }
+
+      .box {
+        max-height: 90vh;
+        width: 400px;
+        height: 580px;
+        max-width: 90vw;
+        border-radius: 20px;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+      }
+
+      .box img {
+        height: 170px;
+        max-width: 100%;
+        width: 400px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+      }
+
+      .box p {
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+      }
+
+      .plan {
+        height: 80px;
+        width: 350px;
+        max-width: 90%;
+        border-radius: 20px;
+        background-color: rgba(173, 216, 230, 0.458);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .changePlan {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+
+      .changePlan img {
+        height: 40px;
+        width: 40px;
+        border-radius: 30px;
+      }
+
+      .plan a {
+        margin-right: 12px;
+      }
+
+      button {
+        height: 60px;
+        width: 80%;
+        border-radius: 20px;
+        background-color: rgb(2, 2, 103);
+        color: #fff;
+        box-shadow: 0 0 5px #000000;
+        box-shadow: 0 0 5px #000000;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <img src="music-notes-background_23-2151339669.avif" alt="top" />
+        <h2>Order Summary</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti
+          vero corrupti atque nam perferendis. Culpa deleniti numquam maxime?
+          Nisi consectetur cumque voluptas eum. Modi, libero.
+        </p>
+        <div class="plan">
+          <div class="changePlan">
+            <img
+              src="Popular-Music-icon-in-round-black-color-on-transparent-background-PNG.png"
+              alt="icon"
+            />
+            <p>
+              Annual Plan <br />
+              $99.9/year
+            </p>
+          </div>
+          <a href="#">Change Plan</a>
+        </div>
+
+        <button>Proceed to Payment</button>
+        <h3>Cancel Order</h3>
+      </div>
+    </div>
+  </body>
+</html>
